@@ -55,34 +55,79 @@ about_content: | # this will include new lines to allow paragraphs
 content:
 
   - title: Skills # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <h4>Hard Skills:</h4>
+            <ul>
+              <li>Drupal 8-10</li>
+              <li>RESTful APIs / GraphQL / JSON:API</li>
+              <li>Data Migration</li>
+              <li>PHP 7-8</li>
+              <li>JavaScript / jQuery / AJAX / React</li>
+              <li>Twig</li>
+              <li>MySQL / MongoDB</li>
+              <li>Git</li>
+              <li>Docker</li>
+              <li>CI/CD</li>
+              <li>Composer and Dependency Management</li>
+              <li>OOP</li>
+              <li>Drupal Commerce for E-commerce Solutions</li>
+              <li>Multisite Setup and Management</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Soft Skills:</h4>
+            <ul>
+              <li>Communication and Collaboration</li>
+              <li>Problem-Solving and Troubleshooting</li>
+              <li>Adaptability and Flexibility</li>
+              <li>Time Management and Organization</li>
+              <li>Attention to Detail and Accuracy</li>
+              <li>Teamwork and Interpersonal Skills</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+  - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        description: |
-          #### Hard Skills:
-          - Drupal 8-10
-          - RESTful APIs / GraphQL / JSON:API 
-          - Data Migration
-          - PHP 7-8
-          - JavaScript / jQuery / AJAX / React
-          - Twig
-          - MySQL / MongoDB
-          - Git
-          - Docker
-          - CI/CD
-          - Composer and Dependency Management 
-          - OOP
-          - Drupal Commerce for E-commerce Solutions
-          - Multisite Setup and Management
+        title: IT Step Academy
+        caption: 2017 - 2019
+        sub_title: Software Developer
+        description: | # this will include new lines to allow paragraphs
+          **Relevant coursework**: 
+            - Computer Basics: Understanding Operating Systems
+            - Introduction to Data Structures and Algorithms
+            - Object-Oriented Programming In C++
+            - Database Concepts
+            - Microsoft SQL Server
+            - Oracle Database
+            - Basics of Computer Networking
+            - JavaScript
+            - HTML / CSS
+            - C# / MVC
+            - UML
 
-          #### Soft Skills:
-          - Communication and Collaboration
-          - Problem-Solving and Troubleshooting
-          - Adaptability and Flexibility
-          - Time Management and Organization
-          - Attention to Detail and Accuracy
-          - Teamwork and Interpersonal Skills
+  - title: Certification # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Acquia Certification Program
+        description: | # this will include new lines to allow paragraphs
+          - Acquia Certified Developer - 2021
 
+  - title: Languages # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+      - **English:** Intermediate
+      - **Romanian:** Native
+      - **Russian:** Advanced
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -99,10 +144,8 @@ content:
           - Identifying and resolving backend issues, bugs, and errors through thorough debugging and testing.
           - Implementing and managing data structures, content types, and fields in Drupal to organize and store website content efficiently.
           
-          ## Projects
-
-          ### Superbook
-
+          ### Projects
+          ## Superbook
           CBN's Superbook Kids website is a safe place for your kids to play free online games, learn more about the Bible, and grow in their faith!
           #### Responsibility:
           - Designing and implementing GraphQL endpoints in Drupal to enable efficient querying and retrieval of data from custom entities and other Drupal content.
@@ -110,10 +153,11 @@ content:
           - Createing views listing pages in Drupal to display and organize content in a user-friendly way.
           - Developing a WYSIWYG plugin and custom filters to automatically convert Bible references into Bible verses.
           - Implementing seamless integration between Drupal Paragraphs and Storybook components.
-          
+
           **Technologies used:** Drupal 9, PHP 8, GraphQL 4, Twig, Storybook, React, Git, Docker 
 
-          ### Baker Institute
+
+          ## Baker Institute
           The Baker Institute for Public Policy is a nonpartisan, data-driven think tank located on the campus of Rice University.
           #### Responsibility:
           - Migration of the content from the old website with NoSQL database to Drupal 9 with SQL database.
@@ -121,10 +165,11 @@ content:
           - Createing views listing pages in Drupal to display and organize content in a user-friendly way.
           - Developing custom Views filters that enable users to filter by both nodes and terms simultaneously.
           - Configuring CI/CD pipelines in CircleCI to automate the deployment process.
-          ##### Technologies used: 
-          - Drupal 9, PHP 8, Site Studio, JavaScript, Twig, Git, Docker
 
-          > ### NBC Sports Regional Networks
+          **Technologies used:** Drupal 9, PHP 8, Site Studio, JavaScript, Twig, Git, Docker
+
+
+          ## NBC Sports Regional Networks
           NBC Sports Regional Networks is the collective name for a group of regional sports networks in the United States.
           #### Responsibility:
           - Improve Apple News by adding more features and capabilities to enhance its functionality.
@@ -133,36 +178,68 @@ content:
           - Enhancing and optimizing the website's Accelerated Mobile Pages (AMP) version for improved user experience.
           - Identify and fix bugs in the codebase to ensure smooth functionality and optimal performance.
           - Core and contributed module updates.
-          ##### Technologies used: 
-          - Drupal 9, PHP 8, AMP, JavaScript, Twig, Git, Docker
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
+
+          **Technologies used:** Drupal 9, PHP 8, AMP, JavaScript, Twig, Git, Docker
+
+
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: Indrivo
+        sub_title: Drupal Developer
+        caption: May 2019 - May 2021
+        description: |
+          #### Responsibility:
+          - Developing custom Drupal modules to extend Drupal Commerce functionality and meet specific project requirements.
+          - Integrating third-party APIs and services with Drupal to enable seamless data exchange and interaction with external systems.
+          - Customizing and configuring Drupal core and contributed modules to match project needs and requirements.
+          - Identifying and resolving backend issues, bugs, and errors through thorough debugging and testing.
+          - Implementing and managing data structures, content types, and fields in Drupal to organize and store website content efficiently.
+          
+          ### Projects
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          ## SELIA.md marketplace
+          Selia is becoming one of the fastest-growing marketplaces in Moldova.
+          #### Responsibility:
+          - Developing bespoke Drupal modules to facilitate data synchronization between the marketplace and sellers.
+          - Developing a REST API to synchronize the marketplace with external sellers.
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+          **Technologies used:** Drupal 8-9, PHP 7, REST API
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+          ## SMS authentication
+          Integrating SMS authentication into an intranet platform, enabling users to authenticate themselves using a one-time passcode delivered via SMS
+          #### Responsibility:
+          - MDeveloping integration with the Twilio SMS gateway to enable SMS authentication.
+
+          **Technologies used:** Drupal 8-9, PHP 7, Twilio API
+
+
+          ## Goadventure
+          GoAdventure provides different tours for tourist visiting Moldova. Winery tours, city tours, monastery tours and also trips to Transnistria and Tiraspol.
+          #### Responsibility:
+          - Implementing the booking functionalityand itinerary guide.
+          - Developing a custom flow for reservations and reservations management.
+
+          **Technologies used:** Drupal 8, PHP 7, Drupal Commerce, JavaScript, Twig
+
+
+          ## Victoriabank payment system
+          The goal of the project is to develop a Drupal commerce payment module for Victoriabank.
+          #### Responsibility:
+          - Creating a custom payment module for Drupal Commerce.
+
+          **Technologies used:** Drupal 8, PHP 7, Drupal Commerce, Victoriabank API
+
+
+          ## Moldova-Agroinbank payment system
+          The goal of the project is to develop a Drupal commerce payment module for Moldova-Agroinbank.
+          #### Responsibility:
+          - Creating a custom payment module for Drupal Commerce.
+
+          **Technologies used:** Drupal 8, PHP 7, Drupal Commerce, Moldova-Agroinbank API
+
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
