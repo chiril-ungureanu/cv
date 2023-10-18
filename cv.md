@@ -3,7 +3,7 @@
 >## Contact Information
 
 - **Email:** [ungureanu.chiril@gmail.com](mailto:ungureanu.chiril@gmail.com)
-- **Phone:** +373 (69) 742-937
+- **Phone:** +40 (745) 144-235, +373 (69) 742-937, 
 - **LinkedIn:** [linkedin.com/in/chiril-ungureanu](https://www.linkedin.com/in/chiril-ungureanu/)
 
 >## Summary

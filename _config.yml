@@ -16,7 +16,7 @@ darkmode: false
 
 # Social links
 # twitter_username: facespics
-github_username:  chiril-ungureanu
+# github_username:  chiril-ungureanu
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -46,7 +46,7 @@ linkedin_username: chiril-ungureanu
 
 # About Section
 about_title: About Me
-about_profile_image: images/profile.jpg
+# about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Chiril and I'm a web developer with 4 years of experience building and maintaining custom Drupal-based websites. 
   
