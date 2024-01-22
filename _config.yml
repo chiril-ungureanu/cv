@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Chiril Ungureanu
-title: Web Developer
+title: Web Developer | Triple Certified Drupal Expert - Drupal 10
 email: ungureanu.chiril@gmail.com
 # website: www.github.com/sproogen/resume-theme
 
@@ -48,9 +48,9 @@ linkedin_username: chiril-ungureanu
 about_title: About Me
 # about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Chiril and I'm a web developer with 4 years of experience building and maintaining custom Drupal-based websites. 
+  Hi, my name is Chiril and I'm a web developer with 5 years of experience building and maintaining custom Drupal-based websites. 
   
-  Proficient in Drupal 8 and 9. Strong problem-solving and analytical skills, combined with a passion for technology and innovation, make me an asset to any organization looking to implement cutting-edge Drupal solutions.
+  Proficient in Drupal 8, 9 and 10. Strong problem-solving and analytical skills, combined with a passion for technology and innovation, make me an asset to any organization looking to implement cutting-edge Drupal solutions.
 
 content:
 
@@ -117,6 +117,22 @@ content:
   - title: Certification # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: Acquia Certification Program
+        description: | # this will include new lines to allow paragraphs
+          - Triple Certified Drupal Expert - Drupal 10 - 2023
+      - layout: left
+        title: Acquia Certification Program
+        description: | # this will include new lines to allow paragraphs
+          - Acquia Certified Back End Specialist - Drupal 10 - 2023
+      - layout: left
+        title: Acquia Certification Program
+        description: | # this will include new lines to allow paragraphs
+          - Acquia Certified Developer - Drupal 10 - 2023
+      - layout: left
+        title: Acquia Certification Program
+        description: | # this will include new lines to allow paragraphs
+          - Acquia Certified Front End Specialist - Drupal 10 - 2023
       - layout: left
         title: Acquia Certification Program
         description: | # this will include new lines to allow paragraphs
