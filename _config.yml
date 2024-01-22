@@ -121,17 +121,8 @@ content:
         title: Acquia Certification Program
         description: | # this will include new lines to allow paragraphs
           - Triple Certified Drupal Expert - Drupal 10 - 2023
-      - layout: left
-        title: Acquia Certification Program
-        description: | # this will include new lines to allow paragraphs
           - Acquia Certified Back End Specialist - Drupal 10 - 2023
-      - layout: left
-        title: Acquia Certification Program
-        description: | # this will include new lines to allow paragraphs
           - Acquia Certified Developer - Drupal 10 - 2023
-      - layout: left
-        title: Acquia Certification Program
-        description: | # this will include new lines to allow paragraphs
           - Acquia Certified Front End Specialist - Drupal 10 - 2023
       - layout: left
         title: Acquia Certification Program
