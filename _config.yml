@@ -153,6 +153,16 @@ content:
           - Implementing and managing data structures, content types, and fields in Drupal to organize and store website content efficiently.
           
           ### Projects
+          ## Penn State University
+          Penn State is a major, public, research-I university serving Pennsylvania and the global community.
+          #### Responsibility:
+          - Developed and integrated React components within NextJS framework, enhancing website functionality and user experience
+          - Orchestrated seamless data migration from legacy systems to Contentful, streamlining content management processes
+          - Optimized existing React components, improving performance and maintainability of web applications
+
+          **Technologies used:** NextJS, ReactJS, Contentful CMS, GraphQL, Contentful Import and Management APIs
+
+
           ## Superbook
           CBN's Superbook Kids website is a safe place for your kids to play free online games, learn more about the Bible, and grow in their faith!
           #### Responsibility:
