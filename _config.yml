@@ -48,7 +48,7 @@ linkedin_username: chiril-ungureanu
 about_title: About Me
 # about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Highly skilled and certified Drupal Backend Developer with 6 years of experience in creating, scaling, and maintaining robust online solutions for high-profile, multilingual projects. Proficient in Acquia Drupal Cloud, site architecture, and backend integrations, with a strong emphasis on secure, maintainable code. Known for delivering large, multilingual Drupal implementations, building CI/CD strategies, and optimizing workflows. A dedicated technical leader, consistently bridging project management with development teams to ensure seamless project execution.
+  Highly skilled and certified Drupal Backend Developer with 7 years of experience in creating, scaling, and maintaining robust online solutions for high-profile projects. Proficient in PHP backend development, Acquia Drupal Cloud, site architecture, and backend integrations, with a strong emphasis on secure, maintainable code. Known for delivering complex Drupal implementations, API and microservice integrations, and optimizing backend workflows. A dedicated technical leader, consistently bridging project management with development teams to ensure seamless project execution.
 
 content:
 
@@ -109,9 +109,18 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Ecofinance (CreditPrime)
+        sub_title: Backend Developer
+        caption: February 2025 - Present
+        description: |
+          - **Product Development:** Building and maintaining backend features for a fintech credit/loan platform, developing custom PHP modules and services for core business logic in a fully backend role.
+          - **Microservice & API Integration:** Designed and integrated microservices and third-party APIs, enabling reliable data exchange across financial services and external providers.
+          - **Architecture & Performance:** Improved system architecture and application performance through code optimization, refactoring, and clean backend engineering practices.
+
+      - layout: left
         title: Jakala (FFW Agency)
         sub_title: Drupal Developer
-        caption: May 2021 - Present
+        caption: May 2021 - February 2025
         description: |
           - **Custom Development:** Designed and developed robust, reusable custom modules to extend Drupal core and meet complex, project-specific requirements. Created GraphQL endpoints and custom entities to optimize data retrieval, enhancing site speed and performance.
           - **Technical Leadership:** Acted as the lead developer in multi-market, multilingual projects, liaising between project management and technical teams. Ensured timely delivery by providing architectural guidance and setting technical standards for the team.
