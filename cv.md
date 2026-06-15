@@ -1,166 +1,129 @@
-# Chiril Ungureanu - Web Developer
+# Chiril Ungureanu - PHP Backend Developer
 
->## Contact Information
+## Contact Information
 
 - **Email:** [ungureanu.chiril@gmail.com](mailto:ungureanu.chiril@gmail.com)
-- **Phone:** +40 (745) 144-235, +373 (69) 742-937, 
+- **Phone:** +40 (745) 144-235, +373 (69) 742-937
 - **LinkedIn:** [linkedin.com/in/chiril-ungureanu](https://www.linkedin.com/in/chiril-ungureanu/)
 
->## Summary
+## Summary
 
-Dedicated and experienced Drupal 
-Developer with 4 years of hands-on
-experience building and maintaining custom
-Drupal-based websites. Proficient in Drupal 8
-and 9. Strong problem-solving and analytical
-skills, combined with a passion for
-technology and innovation, make me an
-asset to any organization looking to
-implement cutting-edge Drupal solutions.
+Backend-focused PHP developer with 6+ years of experience in fintech and enterprise Drupal environments. My recent work is centered on PHP 8 services, Symfony BFF development, PostgreSQL, third-party integrations, and queue processing. Proven ability to work across legacy and modern codebases, contribute to migrations, and improve existing production systems.
 
->## Skills
-#### Hard Skills:
-    - Drupal 8-10
-    - RESTful APIs / GraphQL / JSON:API 
-    - Data Migration
-    - PHP 7-8
-    - JavaScript / jQuery / AJAX / React
-    - Twig
-    - MySQL / MongoDB
-    - Git
-    - Docker
-    - CI/CD
-    - Composer and Dependency Management 
-    - OOP
-    - Drupal Commerce for E-commerce Solutions
-    - Multisite Setup and Management
+## Core Skills
 
-#### Soft Skills:
-    - Communication and Collaboration
-    - Problem-Solving and Troubleshooting
-    - Adaptability and Flexibility
-    - Time Management and Organization
-    - Attention to Detail and Accuracy
-    - Teamwork and Interpersonal Skills
+- **Backend Development:** PHP 5.3-8, object-oriented programming, refactoring, debugging, performance optimization
+- **Frameworks and Platforms:** Symfony, Drupal 8-10, Drupal Commerce
+- **API Development and Integrations:** REST APIs, GraphQL, JSON:API, third-party integrations, backend-for-frontend architecture
+- **Testing:** PHPUnit, automated testing, regression testing
+- **Databases:** PostgreSQL, MySQL, SQL, query writing, reporting
+- **Asynchronous and Batch Processing:** queues, background processing, batch jobs, parallel processing
+- **Development Tools:** Git, Docker, Composer, CI/CD, Drush
+- **Cloud and Delivery:** Acquia Cloud, CircleCI, Bitbucket Pipelines
+- **Frontend Familiarity:** JavaScript, jQuery, React, Twig
 
->## Certifications
+## Certifications
 
 - Acquia Certified Developer - Acquia Certification Program, 2021
 
->## Languages
+## Languages
 
 - **English:** Intermediate
 - **Romanian:** Native
 - **Russian:** Advanced
 
->## Education
+## Education
 
-**Software Developer** - IT Step Academy, (2017 - 2019)
+**Software Developer** - IT Step Academy, 2017-2019
 
- Relevant coursework: 
-  - Computer Basics: Understanding Operating Systems
-  - Introduction to Data Structures and Algorithms
-  - Object-Oriented Programming In C++
-  - Database Concepts
-  - Microsoft SQL Server
-  - Oracle Database
-  - Basics of Computer Networking
-  - JavaScript
-  - HTML / CSS
-  - C# / MVC
-  - UML
+Relevant coursework:
+- Object-Oriented Programming in C++
+- Database Concepts
+- Microsoft SQL Server
+- Oracle Database
+- Data Structures and Algorithms
+- Computer Networking Basics
+- JavaScript
+- HTML / CSS
+- C# / MVC
+- UML
 
->## Work Experience
+## Work Experience
 
-### Drupal Developer - FFW, from 05.2021 to Present
-#### Responsibility:
- - Designing and developing custom Drupal modules to extend the functionality of the Drupal platform and meet specific project requirements.
- - Integrating third-party APIs and services with Drupal to enable seamless data exchange and interaction with external systems.
- - Customizing and configuring Drupal core and contributed modules to match project needs and requirements.
- - Identifying and resolving backend issues, bugs, and errors through thorough debugging and testing.
- - Implementing and managing data structures, content types, and fields in Drupal to organize and store website content efficiently.
+### Backend Developer - Ecofinance
+**February 2025 - Present**
 
- ## Projects
+Develop backend functionality for a microcredit platform supporting loan processing and operational workflows. Responsibilities include third-party integrations, PostgreSQL queries, production debugging, and improvements to queue processing and reporting.
 
-> ### Superbook
-CBN's Superbook Kids website is a safe place for your kids to play free online games, learn more about the Bible, and grow in their faith!
-#### Responsibility:
- - Designing and implementing GraphQL endpoints in Drupal to enable efficient querying and retrieval of data from custom entities and other Drupal content.
- - Creating custom entities in Drupal to store and manage project-specific data in a structured manner.
- - Createing views listing pages in Drupal to display and organize content in a user-friendly way.
- - Developing a WYSIWYG plugin and custom filters to automatically convert Bible references into Bible verses.
- - Implementing seamless integration between Drupal Paragraphs and Storybook components.
- ##### Technologies used: 
- - Drupal 9, PHP 8, GraphQL 4, Twig, Storybook, React, Git, Docker 
+- Develop and improve backend functionality in a mature PHP microcredit platform while contributing to the gradual migration from PHP 5.3 to PHP 8.
+- Build Symfony BFF endpoints, including DTOs, request validation, service integration, and PHPUnit coverage.
+- Maintain and extend a standalone PHP 8 microservice supporting loan processing functionality.
+- Implement integrations with Maestra and AppsFlyer to support customer communication, engagement, and attribution workflows.
+- Redesign a queue-processing workflow using separate fast and rescue lanes, reducing the daily event-processing window by more than 50%.
+- Refactor and parallelize monthly reporting scripts, reducing execution time from approximately eight hours to under two hours.
+- Write PostgreSQL queries for application data access, reporting, development tasks, and production data updates.
+- Investigate production issues across legacy and modern application components and implement stable fixes.
 
-> ### Baker Institute
-The Baker Institute for Public Policy is a nonpartisan, data-driven think tank located on the campus of Rice University.
-#### Responsibility:
- - Migration of the content from the old website with NoSQL database to Drupal 9 with SQL database.
- - Creating custom tokens in Drupal to generate dynamic content for Site Studio.
- - Createing views listing pages in Drupal to display and organize content in a user-friendly way.
- - Developing custom Views filters that enable users to filter by both nodes and terms simultaneously.
- - Configuring CI/CD pipelines in CircleCI to automate the deployment process.
- ##### Technologies used: 
- - Drupal 9, PHP 8, Site Studio, JavaScript, Twig, Git, Docker
+### Drupal Developer - FFW
+**May 2021 - January 2025**
 
-> ### NBC Sports Regional Networks
-NBC Sports Regional Networks is the collective name for a group of regional sports networks in the United States.
-#### Responsibility:
- - Improve Apple News by adding more features and capabilities to enhance its functionality.
- - Developing an integration with OneTrust to ensure compliance with GDPR and CCPA regulations.
- - Developing an integration with Chartbeat to enable real-time analytics and reporting.
- - Enhancing and optimizing the website's Accelerated Mobile Pages (AMP) version for improved user experience.
- - Identify and fix bugs in the codebase to ensure smooth functionality and optimal performance.
- - Core and contributed module updates.
- ##### Technologies used: 
- - Drupal 9, PHP 8, AMP, JavaScript, Twig, Git, Docker
+Worked on enterprise Drupal platforms with a strong backend focus, including custom business logic, API integrations, migrations, CI/CD, debugging, and performance optimization.
 
+- Built and maintained custom PHP modules and backend functionality for Drupal 9 and Drupal 10 platforms.
+- Implemented GraphQL, REST, and third-party integrations to support content delivery, compliance, analytics, and external system communication.
+- Investigated and fixed backend defects in production systems while preserving platform stability.
+- Contributed to deployment workflows and CI/CD automation for client projects.
 
-### Drupal Developer - Indrivo, from 05.2019 to 0.52021
-#### Responsibility:
- - Developing custom Drupal modules to extend Drupal Commerce functionality and meet specific project requirements.
- - Integrating third-party APIs and services with Drupal to enable seamless data exchange and interaction with external systems.
- - Customizing and configuring Drupal core and contributed modules to match project needs and requirements.
- - Identifying and resolving backend issues, bugs, and errors through thorough debugging and testing.
- - Implementing and managing data structures, content types, and fields in Drupal to organize and store website content efficiently.
+#### Selected Projects
 
- ## Projects
+**Superbook**
+- Designed and implemented GraphQL endpoints for custom entities and application data access.
+- Built custom entities and supporting backend logic for project-specific data modeling.
+- Developed custom editor functionality and content-processing filters for automated Bible reference handling.
+- Implemented integration between Drupal Paragraphs and Storybook-based frontend components.
+- **Technologies:** Drupal 9, PHP 8, GraphQL, Twig, Storybook, React, Docker
 
-> ### SELIA.md marketplace
-Selia is becoming one of the fastest-growing marketplaces in Moldova.
-#### Responsibility:
- - Developing bespoke Drupal modules to facilitate data synchronization between the marketplace and sellers.
- - Developing a REST API to synchronize the marketplace with external sellers.
- ##### Technologies used: 
- - Drupal 8-9, PHP 7, REST API
+**Baker Institute**
+- Supported migration from a legacy NoSQL-backed site into Drupal 9 with SQL-backed content structures.
+- Built custom backend functionality for dynamic content generation and complex filtering.
+- Configured CI/CD pipelines in CircleCI to improve delivery workflows.
+- **Technologies:** Drupal 9, PHP 8, Site Studio, JavaScript, Twig, CircleCI, Docker
 
-> ### SMS authentication
-Integrating SMS authentication into an intranet platform, enabling users to authenticate themselves using a one-time passcode delivered via SMS
-#### Responsibility:
- - Developing integration with the Twilio SMS gateway to enable SMS authentication.
- ##### Technologies used: 
- - Drupal 8-9, PHP 7, Twilio API
+**NBC Sports Regional Networks**
+- Implemented integrations with OneTrust and Chartbeat for compliance and analytics workflows.
+- Improved Apple News and AMP-related functionality and resolved backend defects across the platform.
+- Performed core and contributed module updates in an actively maintained production environment.
+- **Technologies:** Drupal 9, PHP 8, AMP, JavaScript, Twig, Docker
 
-> ### Goadventure
-GoAdventure provides different tours for tourist visiting Moldova. Winery tours, city tours, monastery tours and also trips to Transnistria and Tiraspol.
-#### Responsibility:
- - Implementing the booking functionalityand itinerary guide.
- - Developing a custom flow for reservations and reservations management.
- ##### Technologies used: 
- - Drupal 8, PHP 7, Drupal Commerce, JavaScript, Twig
+### Drupal Developer - Indrivo
+**May 2019 - May 2021**
 
-> ### Victoriabank payment system
-The goal of the project is to develop a Drupal commerce payment module for Victoriabank.
-#### Responsibility:
- - Creating a custom payment module for Drupal Commerce.
- ##### Technologies used: 
- - Drupal 8, PHP 7, Drupal Commerce, Victoriabank API
+Built custom backend functionality for Drupal Commerce and content platforms, with a focus on integrations, business workflows, and third-party API integrations.
 
-> ### Moldova-Agroinbank payment system
-The goal of the project is to develop a Drupal commerce payment module for Moldova-Agroinbank.
-#### Responsibility:
- - Creating a custom payment module for Drupal Commerce.
- ##### Technologies used: 
- - Drupal 8, PHP 7, Drupal Commerce, Moldova-Agroinbank API
+- Developed custom Drupal modules to extend e-commerce and marketplace functionality.
+- Integrated third-party services and payment systems into Drupal-based platforms.
+- Built and maintained backend flows for reservations, authentication, and seller synchronization.
+- Investigated and resolved application issues through debugging and testing.
 
+#### Selected Projects
+
+**SELIA.md marketplace**
+- Developed custom synchronization logic between the marketplace and external sellers.
+- Built a REST API for marketplace data exchange.
+- **Technologies:** Drupal 8-9, PHP 7, REST API
+
+**SMS authentication**
+- Integrated Twilio SMS authentication into an intranet platform using one-time passcode delivery.
+- **Technologies:** Drupal 8-9, PHP 7, Twilio API
+
+**Goadventure**
+- Implemented booking functionality and custom reservation-management flows.
+- **Technologies:** Drupal 8, PHP 7, Drupal Commerce, JavaScript, Twig
+
+**Victoriabank payment system**
+- Built a custom Drupal Commerce payment integration for Victoriabank.
+- **Technologies:** Drupal 8, PHP 7, Drupal Commerce, Victoriabank API
+
+**Moldova-Agroindbank payment system**
+- Built a custom Drupal Commerce payment integration for Moldova-Agroindbank.
+- **Technologies:** Drupal 8, PHP 7, Drupal Commerce, Moldova-Agroindbank API

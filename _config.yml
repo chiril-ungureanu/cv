@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Chiril Ungureanu
-title: Drupal Backend Developer | Triple-Certified Drupal Expert
+title: PHP Backend Developer
 email: ungureanu.chiril@gmail.com
 # website: www.github.com/sproogen/resume-theme
 
@@ -48,7 +48,7 @@ linkedin_username: chiril-ungureanu
 about_title: About Me
 # about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Highly skilled and certified Drupal Backend Developer with 7 years of experience in creating, scaling, and maintaining robust online solutions for high-profile projects. Proficient in PHP backend development, Acquia Drupal Cloud, site architecture, and backend integrations, with a strong emphasis on secure, maintainable code. Known for delivering complex Drupal implementations, API and microservice integrations, and optimizing backend workflows. A dedicated technical leader, consistently bridging project management with development teams to ensure seamless project execution.
+  Backend-focused PHP developer with 6+ years of experience in fintech and enterprise Drupal environments. My recent work is centered on PHP 8 services, Symfony BFF development, PostgreSQL, third-party integrations, and queue processing. Proven ability to work across legacy and modern codebases, contribute to migrations, and improve existing production systems.
 
 content:
 
@@ -58,37 +58,40 @@ content:
       <div class="container mt-5">
         <div class="row justify-content-center">
           <div class="col-md-12">
-            <h4>Drupal & CMS Development</h4>
+            <h4>PHP Ecosystem</h4>
             <ul>
-              <li>Drupal 8, 9, 10: Custom module development, Custom Entity, Paragraphs, Drupal Commerce, and Views.</li>
-              <li>Multilingual Site Setup and Management..</li>
-              <li>Site architecture planning, Entity API, and Field API.</li>
-              <li>Extensive experience with Composer and Git for efficient dependency management and version control.</li>
+              <li>PHP 5.3-8, object-oriented programming, refactoring, debugging, performance optimization.</li>
+              <li>Symfony, Drupal 8/9/10, Drupal Commerce, Composer, Git.</li>
             </ul>
-            <h4>DevOps & Cloud Platforms</h4>
+            <h4>Architecture & APIs</h4>
             <ul>
-              <li>Acquia Drupal Cloud: Cloud management, application hosting, and resource optimization.</li>
-              <li>Docker: Containerization, orchestration, and environment setup for isolated, scalable development.</li>
-              <li>CI/CD: CircleCI, Bitbucket pipelines for automated build, test, and deployment pipelines.</li>
-              <li>Familiarity with Pantheon, Proxmox, Digital Ocean, Linode including CI/CD integration for multi-environment workflows.</li>
+              <li>REST APIs, GraphQL, JSON:API, backend-for-frontend architecture, third-party integrations.</li>
+              <li>Data migration, legacy modernization, service integration.</li>
             </ul>
-            <h4>Backend Integration & API Development</h4>
+            <h4>Infrastructure</h4>
             <ul>
-              <li>RESTful APIs, GraphQL, JSON for efficient data exchange between services.</li>
-              <li>Integrating and managing third-party APIs (Twilio, Victoriabank, OneTrust, Chartbeat).</li>
-              <li>Data migration strategies: Structured migration from NoSQL to SQL and legacy systems to Drupal.</li>
+              <li>Docker, Acquia Cloud.</li>
+              <li>CI/CD: CircleCI, Bitbucket Pipelines.</li>
             </ul>
-            <h4>Backend & Frontend Technologies</h4>
+            <h4>Databases & Data</h4>
             <ul>
-              <li>PHP 7-8, JavaScript (ES6+), NodeJS, React, NextJS.</li>
-              <li>Knowledge of decoupled/Headless Drupal and React/Vue for frontend integration.</li>
-              <li>Data migration strategies: Structured migration from NoSQL to SQL and legacy systems to Drupal.</li>
+              <li>PostgreSQL, MySQL, SQL, query writing, reporting.</li>
             </ul>
-            <h4>Project Management & Collaboration</h4>
+            <h4>Third-party Integrations</h4>
             <ul>
-              <li>Agile methodologies: Scrum, Kanban, and JIRA for transparent, iterative development cycles.</li>
-              <li>Strong written and verbal communication skills for effective remote coordination.</li>
-              <li>Team leadership experience with code review, mentoring, and technical guidance.</li>
+              <li>Maestra, AppsFlyer, Victoriabank, Twilio, OneTrust, Chartbeat.</li>
+            </ul>
+            <h4>Testing</h4>
+            <ul>
+              <li>PHPUnit, automated testing, regression testing.</li>
+            </ul>
+            <h4>Frontend Integration</h4>
+            <ul>
+              <li>JavaScript, jQuery, React, Twig.</li>
+            </ul>
+            <h4>Process</h4>
+            <ul>
+              <li>Queues, background processing, batch jobs, parallel processing, code review, task estimation.</li>
             </ul>
           </div>
         </div>
@@ -113,29 +116,40 @@ content:
         sub_title: Backend Developer
         caption: February 2025 - Present
         description: |
-          - **Product Development:** Building and maintaining backend features for a fintech credit/loan platform, developing custom PHP modules and services for core business logic in a fully backend role.
-          - **Microservice & API Integration:** Designed and integrated microservices and third-party APIs, enabling reliable data exchange across financial services and external providers.
-          - **Architecture & Performance:** Improved system architecture and application performance through code optimization, refactoring, and clean backend engineering practices.
+          Develop backend functionality for a microcredit platform supporting loan processing and operational workflows. Responsibilities include third-party integrations, PostgreSQL queries, production debugging, and improvements to queue processing and reporting.
+          
+          - Develop and improve backend functionality in a mature PHP microcredit platform while contributing to the gradual migration from PHP 5.3 to PHP 8.
+          - Build Symfony BFF endpoints, including DTOs, request validation, service integration, and PHPUnit coverage.
+          - Maintain and extend a standalone PHP 8 microservice supporting loan processing functionality.
+          - Implement integrations with Maestra and AppsFlyer to support customer communication, engagement, and attribution workflows.
+          - Redesigned a queue-processing workflow using separate fast and rescue lanes, reducing the daily event-processing window by more than 50%.
+          - Refactored and parallelized monthly reporting scripts, reducing execution time from approximately eight hours to under two hours.
+          - Write PostgreSQL queries for application data access, reporting, development tasks, and production data updates.
+          - Investigate production issues across legacy and modern application components and implement stable fixes.
 
       - layout: left
         title: Jakala (FFW Agency)
         sub_title: Drupal Developer
         caption: May 2021 - February 2025
         description: |
-          - **Custom Development:** Designed and developed robust, reusable custom modules to extend Drupal core and meet complex, project-specific requirements. Created GraphQL endpoints and custom entities to optimize data retrieval, enhancing site speed and performance.
-          - **Technical Leadership:** Acted as the lead developer in multi-market, multilingual projects, liaising between project management and technical teams. Ensured timely delivery by providing architectural guidance and setting technical standards for the team.
-          - **Deployment & CI/CD:** Managed Acquia-hosted applications and created CI/CD workflows. Streamlined deployment scripts for consistent environment setup across development, staging, and production.
-          - **Quality Assurance:** Conducted rigorous code reviews and led debugging efforts to maintain high-quality code and ensure bug-free, scalable solutions.
+          Worked on enterprise Drupal platforms with a strong backend focus, including custom business logic, API integrations, migrations, CI/CD, debugging, and performance optimization.
+
+          - Built and maintained custom PHP modules and backend functionality for Drupal 9 and Drupal 10 platforms.
+          - Implemented GraphQL, REST, and third-party integrations to support content delivery, compliance, analytics, and external system communication.
+          - Investigated and fixed backend defects in production systems while preserving platform stability.
+          - Contributed to deployment workflows and CI/CD automation for client projects.
 
       - layout: left
         title: Indrivo
         sub_title: Drupal Developer
         caption: May 2019 - May 2021
         description: |
-          - **Drupal Commerce Development:** Extended Drupal Commerce functionalities with custom payment modules (Victoriabank, Moldova-Agroinbank), providing clients with integrated, secure payment solutions.
-          - **API Integration & Data Migration:** Developed REST APIs to synchronize marketplace data with external vendors, ensuring up-to-date inventory and pricing. Oversaw the migration of legacy data from NoSQL systems to structured SQL databases, optimizing for performance and data integrity.
-          - **Enhanced Site Functionality:** Customized Drupal core and contributed modules, including custom Views filters, entity tokens, and responsive themes. Integrated multilingual support for regional content accessibility.
-          - **DevOps & Automation:** Set up Dockerized development environments, streamlined workflows, and implemented CI/CD with CircleCI to automate builds and deployments.
+          Built custom backend functionality for Drupal Commerce and content platforms, with a focus on integrations, business workflows, and third-party API integrations.
+
+          - Developed custom Drupal modules to extend e-commerce and marketplace functionality.
+          - Integrated third-party services and payment systems into Drupal-based platforms.
+          - Built and maintained backend flows for reservations, authentication, and seller synchronization.
+          - Investigated and resolved application issues through debugging and testing.
 
   - title: Projects
     layout: list # Type of content section (list/text)
@@ -145,18 +159,6 @@ content:
         description: |
           - Integrated dynamic React components within Next.js, improving frontend interactivity and usability.
           - Managed complex data migrations to Contentful, reducing manual content handling and enhancing CMS efficiency.
-
-      - layout: left
-        title: Superbook
-        description: |
-          - Designed efficient GraphQL endpoints and custom Drupal entities for optimized data structuring.
-          - Implemented Storybook-integrated Drupal Paragraphs, creating a consistent design system across components.
-
-      - layout: left
-        title: Baker Institute
-        description: |
-          - Migrated content from legacy NoSQL to a SQL-based Drupal 9 site, enhancing data reliability and scalability.
-          - Developed custom filters and Views listings for more intuitive, content-rich pages.
 
       - layout: left
         title: NBC Sports Regional Networks
@@ -176,19 +178,7 @@ content:
         title: IT Step Academy
         caption: 2017 - 2019
         sub_title: Software Developer
-        description: | # this will include new lines to allow paragraphs
-          **Relevant coursework**: 
-            - Computer Basics: Understanding Operating Systems
-            - Introduction to Data Structures and Algorithms
-            - Object-Oriented Programming In C++
-            - Database Concepts
-            - Microsoft SQL Server
-            - Oracle Database
-            - Basics of Computer Networking
-            - JavaScript
-            - HTML / CSS
-            - C# / MVC
-            - UML
+        description: ""
 
 
   - title: Languages # Title for the section
