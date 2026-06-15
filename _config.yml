@@ -45,10 +45,14 @@ linkedin_username: chiril-ungureanu
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: About Me
+about_title: Professional Summary
 # about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Backend-focused PHP developer with 6+ years of experience in fintech and enterprise Drupal environments. My recent work is centered on PHP 8 services, Symfony BFF development, PostgreSQL, third-party integrations, and queue processing. Proven ability to work across legacy and modern codebases, contribute to migrations, and improve existing production systems.
+  Backend-focused PHP developer with 7+ years of experience in fintech and enterprise web development. Currently working on a microcredit platform across PHP 8 services, a Symfony-based BFF, and a mature legacy PHP application undergoing gradual modernization.
+  
+  Experienced in API development, third-party integrations, asynchronous and batch processing, performance optimization, SQL-based data investigation, and automated testing with PHPUnit. Previously specialized in large-scale Drupal platforms, including custom backend development, APIs, migrations, and integrations.
+  
+  Based in Chisinau, Moldova with EU work authorization.
 
 content:
 
@@ -60,12 +64,12 @@ content:
           <div class="col-md-12">
             <h4>PHP Ecosystem</h4>
             <ul>
-              <li>PHP 5.3-8, object-oriented programming, refactoring, debugging, performance optimization.</li>
+              <li>PHP 8, object-oriented programming, legacy PHP modernization, refactoring, debugging, performance optimization.</li>
               <li>Symfony, Drupal 8/9/10, Drupal Commerce, Composer, Git.</li>
             </ul>
             <h4>Architecture & APIs</h4>
             <ul>
-              <li>REST APIs, GraphQL, JSON:API, backend-for-frontend architecture, third-party integrations.</li>
+              <li>REST APIs, GraphQL, JSON:API, Backend-for-Frontend (BFF), third-party integrations.</li>
               <li>Data migration, legacy modernization, service integration.</li>
             </ul>
             <h4>Infrastructure</h4>
@@ -75,11 +79,11 @@ content:
             </ul>
             <h4>Databases & Data</h4>
             <ul>
-              <li>PostgreSQL, MySQL, SQL, query writing, reporting.</li>
+              <li>PostgreSQL, MySQL, SQL queries, reporting, production data analysis.</li>
             </ul>
             <h4>Third-party Integrations</h4>
             <ul>
-              <li>Maestra, AppsFlyer, Victoriabank, Twilio, OneTrust, Chartbeat.</li>
+              <li>Maestra, AppsFlyer, Victoriabank, Moldova-Agroindbank, OneTrust.</li>
             </ul>
             <h4>Testing</h4>
             <ul>
@@ -91,40 +95,29 @@ content:
             </ul>
             <h4>Process</h4>
             <ul>
-              <li>Queues, background processing, batch jobs, parallel processing, code review, task estimation.</li>
+              <li>Queues, background processing, batch jobs, parallel processing, technical analysis, task estimation.</li>
             </ul>
           </div>
         </div>
       </div>
 
-  - title: Certification # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Acquia Certification Program
-        description: | # this will include new lines to allow paragraphs
-          - Triple Certified Drupal Expert - Drupal 10 - 2023
-          - Acquia Certified Back End Specialist - Drupal 10 - 2023
-          - Acquia Certified Developer - Drupal 10 - 2023
-          - Acquia Certified Front End Specialist - Drupal 10 - 2023    
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Ecofinance (CreditPrime)
+        title: Ecofinance - CreditPrime
         sub_title: Backend Developer
         caption: February 2025 - Present
         description: |
-          Develop backend functionality for a microcredit platform supporting loan processing and operational workflows. Responsibilities include third-party integrations, PostgreSQL queries, production debugging, and improvements to queue processing and reporting.
+          Contribute to the development and modernization of a microcredit platform built across legacy PHP, PHP 8 services, and a Symfony-based BFF.
           
           - Develop and improve backend functionality in a mature PHP microcredit platform while contributing to the gradual migration from PHP 5.3 to PHP 8.
-          - Build Symfony BFF endpoints, including DTOs, request validation, service integration, and PHPUnit coverage.
+          - Build Symfony BFF endpoints, including DTOs, request validation, service integration, and automated tests using PHPUnit.
           - Maintain and extend a standalone PHP 8 microservice supporting loan processing functionality.
-          - Implement integrations with Maestra and AppsFlyer to support customer communication, engagement, and attribution workflows.
+          - Implemented integrations with Maestra and AppsFlyer to support customer communication, engagement, and attribution workflows.
           - Redesigned a queue-processing workflow using separate fast and rescue lanes, reducing the daily event-processing window by more than 50%.
           - Refactored and parallelized monthly reporting scripts, reducing execution time from approximately eight hours to under two hours.
-          - Write PostgreSQL queries for application data access, reporting, development tasks, and production data updates.
+          - Prepare PostgreSQL queries and SQL scripts for repositories, data investigations, reporting, and controlled production execution by operations teams.
           - Investigate production issues across legacy and modern application components and implement stable fixes.
 
       - layout: left
@@ -151,19 +144,21 @@ content:
           - Built and maintained backend flows for reservations, authentication, and seller synchronization.
           - Investigated and resolved application issues through debugging and testing.
 
-  - title: Projects
+  - title: Selected Projects
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Penn State University
+        title: Superbook
         description: |
-          - Integrated dynamic React components within Next.js, improving frontend interactivity and usability.
-          - Managed complex data migrations to Contentful, reducing manual content handling and enhancing CMS efficiency.
-
+          - Designed and implemented GraphQL endpoints for custom entities and application data access.
+          - Built custom entities and supporting backend logic for project-specific data modeling.
+          - Developed custom editor functionality and content-processing filters for automated Bible reference handling.
+  
       - layout: left
         title: NBC Sports Regional Networks
         description: |
-          - Improved AMP support for fast, mobile-friendly content. Integrated with OneTrust and Chartbeat for regulatory compliance and analytics, enhancing site functionality.
+          - Implemented integrations and backend changes supporting compliance, content distribution, and platform maintenance.
+          - Improved Apple News and AMP-related functionality and resolved backend defects in an actively maintained production platform.
   
       - layout: left
         title: Selia.md Marketplace
@@ -171,20 +166,31 @@ content:
           - Built a REST API for real-time data synchronization, allowing marketplace and seller integration.
           - Developed custom modules to handle inventory and pricing data, ensuring a smooth, reliable marketplace experience.
 
+  - title: Certifications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Acquia Certification Program
+        description: | # this will include new lines to allow paragraphs
+          - Triple Certified Drupal Expert - Drupal 10 - 2023
+          - Acquia Certified Back End Specialist - Drupal 10 - 2023
+          - Acquia Certified Developer - Drupal 10 - 2023
+          - Acquia Certified Front End Specialist - Drupal 10 - 2023    
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: IT Step Academy
         caption: 2017 - 2019
-        sub_title: Software Developer
+        sub_title: Software Development Program
         description: ""
 
 
   - title: Languages # Title for the section
     layout: text # Type of content section (list/text)
     content: |
-      - **English:** Upper intermediate
+      - **English:** Upper-intermediate (B2)
       - **Romanian:** Native
       - **Russian:** Advanced
 

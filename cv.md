@@ -2,66 +2,44 @@
 
 ## Contact Information
 
+- **Location:** Chisinau, Moldova
+- **Work Authorization:** EU work authorization
 - **Email:** [ungureanu.chiril@gmail.com](mailto:ungureanu.chiril@gmail.com)
 - **Phone:** +40 (745) 144-235, +373 (69) 742-937
 - **LinkedIn:** [linkedin.com/in/chiril-ungureanu](https://www.linkedin.com/in/chiril-ungureanu/)
 
 ## Summary
 
-Backend-focused PHP developer with 6+ years of experience in fintech and enterprise Drupal environments. My recent work is centered on PHP 8 services, Symfony BFF development, PostgreSQL, third-party integrations, and queue processing. Proven ability to work across legacy and modern codebases, contribute to migrations, and improve existing production systems.
+Backend-focused PHP developer with 7+ years of experience in fintech and enterprise web development. Currently working on a microcredit platform across PHP 8 services, a Symfony-based BFF, and a mature legacy PHP application undergoing gradual modernization.
+
+Experienced in API development, third-party integrations, asynchronous and batch processing, performance optimization, SQL-based data investigation, and automated testing with PHPUnit. Previously specialized in large-scale Drupal platforms, including custom backend development, APIs, migrations, and integrations.
 
 ## Core Skills
 
-- **Backend Development:** PHP 5.3-8, object-oriented programming, refactoring, debugging, performance optimization
+- **Backend Development:** PHP 8, object-oriented programming, legacy PHP modernization, refactoring, debugging, performance optimization
 - **Frameworks and Platforms:** Symfony, Drupal 8-10, Drupal Commerce
-- **API Development and Integrations:** REST APIs, GraphQL, JSON:API, third-party integrations, backend-for-frontend architecture
+- **API Development and Integrations:** REST APIs, GraphQL, JSON:API, third-party integrations, Backend-for-Frontend (BFF)
 - **Testing:** PHPUnit, automated testing, regression testing
-- **Databases:** PostgreSQL, MySQL, SQL, query writing, reporting
+- **Databases:** PostgreSQL, MySQL, SQL queries, reporting, production data analysis
 - **Asynchronous and Batch Processing:** queues, background processing, batch jobs, parallel processing
 - **Development Tools:** Git, Docker, Composer, CI/CD, Drush
 - **Cloud and Delivery:** Acquia Cloud, CircleCI, Bitbucket Pipelines
 - **Frontend Familiarity:** JavaScript, jQuery, React, Twig
-
-## Certifications
-
-- Acquia Certified Developer - Acquia Certification Program, 2021
-
-## Languages
-
-- **English:** Intermediate
-- **Romanian:** Native
-- **Russian:** Advanced
-
-## Education
-
-**Software Developer** - IT Step Academy, 2017-2019
-
-Relevant coursework:
-- Object-Oriented Programming in C++
-- Database Concepts
-- Microsoft SQL Server
-- Oracle Database
-- Data Structures and Algorithms
-- Computer Networking Basics
-- JavaScript
-- HTML / CSS
-- C# / MVC
-- UML
 
 ## Work Experience
 
 ### Backend Developer - Ecofinance
 **February 2025 - Present**
 
-Develop backend functionality for a microcredit platform supporting loan processing and operational workflows. Responsibilities include third-party integrations, PostgreSQL queries, production debugging, and improvements to queue processing and reporting.
+Contribute to the development and modernization of a microcredit platform built across legacy PHP, PHP 8 services, and a Symfony-based BFF.
 
 - Develop and improve backend functionality in a mature PHP microcredit platform while contributing to the gradual migration from PHP 5.3 to PHP 8.
-- Build Symfony BFF endpoints, including DTOs, request validation, service integration, and PHPUnit coverage.
+- Build Symfony BFF endpoints, including DTOs, request validation, service integration, and automated tests using PHPUnit.
 - Maintain and extend a standalone PHP 8 microservice supporting loan processing functionality.
-- Implement integrations with Maestra and AppsFlyer to support customer communication, engagement, and attribution workflows.
+- Implemented integrations with Maestra and AppsFlyer to support customer communication, engagement, and attribution workflows.
 - Redesign a queue-processing workflow using separate fast and rescue lanes, reducing the daily event-processing window by more than 50%.
 - Refactor and parallelize monthly reporting scripts, reducing execution time from approximately eight hours to under two hours.
-- Write PostgreSQL queries for application data access, reporting, development tasks, and production data updates.
+- Prepare PostgreSQL queries and SQL scripts for repositories, data investigations, reporting, and controlled production execution by operations teams.
 - Investigate production issues across legacy and modern application components and implement stable fixes.
 
 ### Drupal Developer - FFW
@@ -127,3 +105,32 @@ Built custom backend functionality for Drupal Commerce and content platforms, wi
 **Moldova-Agroindbank payment system**
 - Built a custom Drupal Commerce payment integration for Moldova-Agroindbank.
 - **Technologies:** Drupal 8, PHP 7, Drupal Commerce, Moldova-Agroindbank API
+
+## Certifications
+
+- Triple Certified Drupal Expert - Drupal 10, 2023
+- Acquia Certified Back End Specialist - Drupal 10, 2023
+- Acquia Certified Developer - Drupal 10, 2023
+- Acquia Certified Front End Specialist - Drupal 10, 2023
+
+## Education
+
+**Software Development Program** - IT Step Academy, 2017-2019
+
+Relevant coursework:
+- Object-Oriented Programming in C++
+- Database Concepts
+- Microsoft SQL Server
+- Oracle Database
+- Data Structures and Algorithms
+- Computer Networking Basics
+- JavaScript
+- HTML / CSS
+- C# / MVC
+- UML
+
+## Languages
+
+- **English:** Upper-intermediate (B2)
+- **Romanian:** Native
+- **Russian:** Advanced
