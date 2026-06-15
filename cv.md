@@ -2,8 +2,6 @@
 
 ## Contact Information
 
-- **Location:** Chisinau, Moldova
-- **Work Authorization:** EU work authorization
 - **Email:** [ungureanu.chiril@gmail.com](mailto:ungureanu.chiril@gmail.com)
 - **Phone:** +40 (745) 144-235, +373 (69) 742-937
 - **LinkedIn:** [linkedin.com/in/chiril-ungureanu](https://www.linkedin.com/in/chiril-ungureanu/)
@@ -14,13 +12,15 @@ Backend-focused PHP developer with 7+ years of experience in fintech and enterpr
 
 Experienced in API development, third-party integrations, asynchronous and batch processing, performance optimization, SQL-based data investigation, and automated testing with PHPUnit. Previously specialized in large-scale Drupal platforms, including custom backend development, APIs, migrations, and integrations.
 
+Based in Chisinau, Moldova with EU work authorization.
+
 ## Core Skills
 
 - **Backend Development:** PHP 8, object-oriented programming, legacy PHP modernization, refactoring, debugging, performance optimization
 - **Frameworks and Platforms:** Symfony, Drupal 8-10, Drupal Commerce
 - **API Development and Integrations:** REST APIs, GraphQL, JSON:API, third-party integrations, Backend-for-Frontend (BFF)
 - **Testing:** PHPUnit, automated testing, regression testing
-- **Databases:** PostgreSQL, MySQL, SQL queries, reporting, production data analysis
+- **Databases:** PostgreSQL, MySQL, SQL query writing, reporting, data investigation
 - **Asynchronous and Batch Processing:** queues, background processing, batch jobs, parallel processing
 - **Development Tools:** Git, Docker, Composer, CI/CD, Drush
 - **Cloud and Delivery:** Acquia Cloud, CircleCI, Bitbucket Pipelines
@@ -31,9 +31,8 @@ Experienced in API development, third-party integrations, asynchronous and batch
 ### Backend Developer - Ecofinance
 **February 2025 - Present**
 
-Contribute to the development and modernization of a microcredit platform built across legacy PHP, PHP 8 services, and a Symfony-based BFF.
+Contribute to the development and modernization of a microcredit platform built across legacy PHP, PHP 8 services, and a Symfony-based BFF, while supporting the gradual migration from PHP 5.3 to PHP 8.
 
-- Develop and improve backend functionality in a mature PHP microcredit platform while contributing to the gradual migration from PHP 5.3 to PHP 8.
 - Build Symfony BFF endpoints, including DTOs, request validation, service integration, and automated tests using PHPUnit.
 - Maintain and extend a standalone PHP 8 microservice supporting loan processing functionality.
 - Implemented integrations with Maestra and AppsFlyer to support customer communication, engagement, and attribution workflows.

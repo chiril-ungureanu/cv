@@ -79,7 +79,7 @@ content:
             </ul>
             <h4>Databases & Data</h4>
             <ul>
-              <li>PostgreSQL, MySQL, SQL queries, reporting, production data analysis.</li>
+              <li>PostgreSQL, MySQL, SQL query writing, reporting, data investigation.</li>
             </ul>
             <h4>Third-party Integrations</h4>
             <ul>
@@ -109,9 +109,8 @@ content:
         sub_title: Backend Developer
         caption: February 2025 - Present
         description: |
-          Contribute to the development and modernization of a microcredit platform built across legacy PHP, PHP 8 services, and a Symfony-based BFF.
+          Contribute to the development and modernization of a microcredit platform built across legacy PHP, PHP 8 services, and a Symfony-based BFF, while supporting the gradual migration from PHP 5.3 to PHP 8.
           
-          - Develop and improve backend functionality in a mature PHP microcredit platform while contributing to the gradual migration from PHP 5.3 to PHP 8.
           - Build Symfony BFF endpoints, including DTOs, request validation, service integration, and automated tests using PHPUnit.
           - Maintain and extend a standalone PHP 8 microservice supporting loan processing functionality.
           - Implemented integrations with Maestra and AppsFlyer to support customer communication, engagement, and attribution workflows.
